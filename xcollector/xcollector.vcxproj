@@ -153,15 +153,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="xcollector.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="source\xcollector\xcollector.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\utils\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="xcollector.hpp" />
-    <ClInclude Include="logger.hpp" />
-    <ClInclude Include="progress.hpp" />
-    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="source\xcollector\xcollector.hpp" />
+    <ClInclude Include="source\misc\logger.hpp" />
+    <ClInclude Include="source\misc\progress.hpp" />
+    <ClInclude Include="source\utils\utils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

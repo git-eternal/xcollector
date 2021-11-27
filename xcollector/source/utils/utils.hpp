@@ -10,8 +10,8 @@
 #include <algorithm>
 #include <execution>
 #include <future>
-#include "progress.hpp"
-#include "logger.hpp"
+#include "../misc/progress.hpp"
+#include "../misc/logger.hpp"
 
 #undef max
 

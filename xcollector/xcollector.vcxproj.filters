@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="source\utils\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="xcollector.cpp">
+    <ClCompile Include="source\xcollector\xcollector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="progress.hpp">
+    <ClInclude Include="source\misc\progress.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils.hpp">
+    <ClInclude Include="source\utils\utils.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="xcollector.hpp">
+    <ClInclude Include="source\xcollector\xcollector.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="logger.hpp">
+    <ClInclude Include="source\misc\logger.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

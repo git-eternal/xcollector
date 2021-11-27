@@ -1,6 +1,6 @@
 #pragma once
 
-#include "utils.hpp"
+#include "../utils/utils.hpp"
 
 using beatmap_t = std::vector<int>;
 
