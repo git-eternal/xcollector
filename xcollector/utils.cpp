@@ -57,6 +57,8 @@ void Utils::HideScrollbar()
 
 void Utils::InitializeConsole()
 {
+	SetConsoleTitle("xcollector 1.0");
+
 	HANDLE out{ GetStdHandle(STD_OUTPUT_HANDLE) };
 
 	DWORD dwMode{ 0 }; GetConsoleMode(out, &dwMode);
