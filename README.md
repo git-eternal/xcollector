@@ -9,7 +9,7 @@
 <hr>
 
 ## Background
-<a href="https://osucollector.com">Osu collector</a> is a paid service used to download packages of organized osu beatmaps called "collections". A few days ago, I managed to find an exploit in their API (mainly due to the lack of any authentication or integrity within the API infrastructure itself) that allowed me to download any collection I wanted without paying. As a result, I decided to write a proof of concept (PoC) and release it to the public. 
+<a href="https://osucollector.com">Osu collector</a> is a paid service used to download packages of organized osu beatmaps called "collections". A few days ago, I managed to find an exploit in their API that allowed me to download any collection I wanted without paying (mainly due to the lack of any authentication or integrity within the API infrastructure itself). As a result, I decided to write a proof of concept (PoC) and release it to the public. 
 Although XCollector renders this service free, I still urge you to go and support the original creators as they've put lots of time and effort into their project. XCollector merely serves as an educational tool to demonstrate how a premium service can be exploited and will likely be patched by them soon. 
 
 ## How to use
